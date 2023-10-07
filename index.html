@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        background: #323046;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      canvas {
+        margin: 0 auto;
+        margin-left: 33vw;
+        text-align: left;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas
+      id="board"
+      style="background-color: black"
+      width="300"
+      height="600"
+    ></canvas>
+    <h2 id="scoreBoard">Score :<spain>0</spain></h2>
+    <script src="piece.js"></script>
+    <script src="tetris.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
