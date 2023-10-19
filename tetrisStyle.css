@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(tetris\ v2\ .png);
+  background-color: aqua;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-containerTable {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+  margin: auto;
+}
+
+.grid-item {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+.border {
+  border: 1px solid white;
+}
+.myButton {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 20px;
+  padding: 12px;
+  border-radius: 17px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+
+.titleText {
+  margin: 0;
+  padding-bottom: 10px;
+  color: #e0dfdc;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
