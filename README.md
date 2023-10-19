@@ -33,4 +33,4 @@ To run the Tetris game locally, you'll need a modern web browser.
 
 **Dependencies**: This project relies on standard web technologies, including HTML5, CSS3, and JavaScript.
 
-For a more in-depth exploration of the code structure, architecture, and external dependencies, please refer to the [Technical Documentation](technical-doc.md).
+
