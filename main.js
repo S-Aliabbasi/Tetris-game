@@ -20,7 +20,7 @@ document.addEventListener("keydown", (event) => {
       game.moveSideways(playerAction.x);
 
       break;
-    case " ":
+    case "ArrowUp":
       game.rotate();
       game.movePieceDown();
       break;
